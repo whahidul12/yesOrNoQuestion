@@ -34,8 +34,8 @@ h1 {
 }
 
 form label {
-    display: block;
-    margin: 1rem 0;
+    display: inline;
+    margin: 1rem 1.2rem;
     font-size: 1.2rem;
     color: #333;
     cursor: pointer;

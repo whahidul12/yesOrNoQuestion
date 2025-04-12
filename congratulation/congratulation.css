@@ -97,3 +97,13 @@ body {
         font-size: 2rem;
     }
 }
+@media (max-width: 345px) {
+    .card {
+        max-width: 90%;
+        padding: 1rem;
+    }
+
+    .card h1 {
+        font-size: 1.8rem;
+    }
+}

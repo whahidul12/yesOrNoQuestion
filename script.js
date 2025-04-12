@@ -14,11 +14,12 @@ document.getElementById('submitBtn').addEventListener('click', () => {
     }
 
     const animationDiv = document.getElementById('animation');
-    const celebrationMusic = document.getElementById('celebrationMusic');
+
     const angryMusic = document.getElementById('angryMusic');
 
     if (selectedValue === 'yes') {
         window.location.href = "./congratulation/congratulation.html";
+
         // animationDiv.innerHTML = '<div class="party">🎉 YES! Party Time! 🎉</div>';
         // animationDiv.style.display = 'flex';
         // celebrationMusic.play();
@@ -26,7 +27,7 @@ document.getElementById('submitBtn').addEventListener('click', () => {
         //     animationDiv.style.display = 'none';
         // }, 2000);
     } else {
-        animationDiv.innerHTML = '<div class="angry">😡 NO?! Try Again! 😡</div>';
+        animationDiv.innerHTML = '<div class="angry"><span>😡 NO?! Try Again! 😡</span></div>';
         animationDiv.style.display = 'flex';
         angryMusic.play();
         setTimeout(() => {
